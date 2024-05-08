@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1></h1>
+        <p id="question">ข้อใดไม่ใช่อุปกรณ์อินพุต</p>
+        <button class="button" onclick="checkAnswer('a')">A) เม้าส์</button>
+        <button class="button" onclick="checkAnswer('b')">B) คีย์บอร์ด</button>
+        <button class="button" onclick="checkAnswer('c')">C) ลำโพง</button>
+        <button class="button" onclick="checkAnswer('d')">D) กล้อง</button>
+        <p id="result"></p>
+    
+        <h1></h1>
+        <p id="question02">ข้อใดไม่ใช่ภาษาคอมพิวเตอร์</p>
+        <button class="button" onclick="checkAnswer02('a')">A) C++</button>
+        <button class="button" onclick="checkAnswer02('b')">B) HTML</button>
+        <button class="button" onclick="checkAnswer02('c')">C) Python</button>
+        <button class="button" onclick="checkAnswer02('d')">D) JAVA</button>
+        <p id="result02"></p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
